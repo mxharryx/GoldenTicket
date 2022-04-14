@@ -9,7 +9,7 @@ urlpatterns =[
     path("signup/", views.register, name="signup"),
     path("login/", views.login_request, name="login"),
     path("logout/", views.logout_request, name="logout"),
-    path("<movie_page>", views.moviedetail, name="moviedetail"),
+    # path("<movie_page>", views.moviedetail, name="moviedetail"),
 
 ]
 
